@@ -1,7 +1,7 @@
 ## 使用
 ### 1. 获取到视频的 m3u8 文件内容保存到 index.m3u8 中
-### 2. 修改 app.js 中 host 值，host 值指 m3u8 链接去除 m3u8 文件名的部分(包括'/'符号) 例如 https://cdn123456789.51551.cn:4433/73sm/asmr/1663314432/hls.m3u8 host 为 https://cdn123456789.51551.cn:4433/73sm/asmr/1663314432/
-### 3. 修改 app.js 中 outputName 自定义输入视频文件名
+### 2. 修改 app.js 中 host 值，host 值指 m3u8 链接去除 m3u8 文件名的部分(包括'/'符号) 例如 `https://localhost/1663314432/hls.m3u8` host 为 `https://localhost/1663314432/`
+### 3. 修改 app.js 中 outputName 自定义输出视频文件名
 ### 4. 使用 npm 安装依赖包
 ```bash
     npm i request # 或者 yarn add request
